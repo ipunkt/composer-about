@@ -1,0 +1,24 @@
+{
+    "name": "ipunkt/composer-about",
+	"version": "1.0.0",
+	"type": "library",
+    "description": "Parses composer.lock and returns informations about the used packages",
+	"keywords": ["composer", "library", "laravel", "php"],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Robert Kummer",
+            "email": "rok@ipunkt.biz"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ipunkt\\ComposerAbout\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
