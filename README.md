@@ -10,12 +10,13 @@ Mainly developed for Laravel, but can still be used in all other Frameworks or V
 
 1. Add service provider to app.config
 
-	'Ipunkt\ComposerAbout\ComposerAboutServiceProvider',
+	`'Ipunkt\ComposerAbout\ComposerAboutServiceProvider',`
 
 2. Use it in your routes.php or Controller action
 
-	/** @var \Ipunkt\ComposerAbout\Structure\ComposerStructure $composerAbout */
-	$composerAbout = App::make('composer-about');
+	`/** @var \Ipunkt\ComposerAbout\Structure\ComposerStructure $composerAbout */`
+
+	`$composerAbout = App::make('composer-about');`
 
 
 API
@@ -40,7 +41,7 @@ if you want to check, that there is a defined license that you do not want to ha
 
 ### Package
 
-For current methods please see Ipunkt\ComposerAbout\Structure\Data\Package.php
+For current methods please see `Ipunkt\ComposerAbout\Structure\Data\Package.php`
 
 ### Package::getName()
 
