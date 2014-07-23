@@ -1,6 +1,8 @@
 Retrieve Information from composer.lock
 =======================================
 
+[![Latest Stable Version](https://poser.pugx.org/ipunkt/composer-about/v/stable.svg)](https://packagist.org/packages/ipunkt/composer-about) [![Latest Unstable Version](https://poser.pugx.org/ipunkt/composer-about/v/unstable.svg)](https://packagist.org/packages/ipunkt/composer-about) [![License](https://poser.pugx.org/ipunkt/composer-about/license.svg)](https://packagist.org/packages/ipunkt/composer-about) [![Total Downloads](https://poser.pugx.org/ipunkt/composer-about/downloads.svg)](https://packagist.org/packages/ipunkt/composer-about)
+
 Parses composer.lock and returns informations about the used packages
 
 Usage
